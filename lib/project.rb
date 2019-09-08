@@ -1,2 +1,2 @@
-class project
-end 
+class Project
+end
