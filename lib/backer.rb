@@ -5,9 +5,9 @@ class Backer
     @backed_projects=[]
   end
 
-  def back_project (project)
+  def back_project (project_1)
     @backed_projects<<project
-    project.add_backer(self)
+    project_1.add_backer(self)
   end
 
 
